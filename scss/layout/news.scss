@@ -1,0 +1,14 @@
+@import "../utils/mixin.scss";
+
+.news {
+    @include wrapper;
+    &__top, &__bot {
+        @include flexbox;
+        justify-content: space-between;
+        margin-top: 150px;
+        &--text {
+            margin-right: 40px;
+            text-align: start;
+        }
+    }
+}

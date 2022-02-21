@@ -1,0 +1,17 @@
+.news {
+  margin: auto;
+  max-width: 1280px;
+  width: 100%;
+}
+.news__top, .news__bot {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin-top: 150px;
+}
+.news__top--text, .news__bot--text {
+  margin-right: 40px;
+  text-align: start;
+}
+
+/*# sourceMappingURL=news.css.map */
