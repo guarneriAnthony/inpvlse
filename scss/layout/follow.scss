@@ -1,0 +1,11 @@
+@import "../utils/mixin.scss";
+@import "../utils/variable.scss";
+
+.reseaux {
+    @include wrapper;
+    @include flexbox;
+    justify-content: center;
+    &--h1 {
+        color: $clr-primary;
+    }
+}

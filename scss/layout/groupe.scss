@@ -1,0 +1,22 @@
+@import "../utils/mixin.scss";
+@import "../utils/variable.scss";
+
+.groupe {
+    background-color: rgba(7,8,10,255);
+    &__top, &__bot {
+        @include wrapper;
+        @include flexbox;
+        justify-content: space-between;
+        background: white;
+    }
+    &__un, &__deux, &__trois, &__quatre {
+        @include flexbox;
+        max-width: 50%;
+        &--img {
+            border: 2px solid white;
+        }    
+    }
+    &--h1 {
+        color: $clr-secondary;
+    }
+}

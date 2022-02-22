@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  color: #7ddf64;
+  background: #07080a;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.footer > * {
+  margin-bottom: 10px;
+}
+.footer--text {
+  margin-left: 20px;
+}
+.footer--signature {
+  margin-right: 20px;
+}
+
+/*# sourceMappingURL=footer.css.map */

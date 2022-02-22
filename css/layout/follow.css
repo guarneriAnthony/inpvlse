@@ -1,0 +1,13 @@
+.reseaux {
+  margin: auto;
+  max-width: 1280px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+}
+.reseaux--h1 {
+  color: #07080a;
+}
+
+/*# sourceMappingURL=follow.css.map */

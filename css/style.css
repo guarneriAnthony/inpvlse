@@ -4,25 +4,108 @@
   list-style: none;
 }
 
-.news {
-  margin: auto;
-  max-width: 1280px;
-  width: 100%;
+h1 {
+  font-size: 4.5em;
+  text-align: center;
+  text-shadow: 2px 2px 2px #db6c79;
+  text-decoration: underline 2px #db6c79;
+  font-family: "Source Sans Pro", sans-serif;
 }
-.news__top, .news__bot {
-  display: flex;
-  justify-content: center;
-  justify-content: space-between;
-  margin-top: 150px;
-}
-.news__top--text, .news__bot--text {
-  margin-right: 40px;
+
+h2 {
+  font-size: 2.5em;
+  color: #07080a;
   text-align: start;
+  text-shadow: 2px 2px 2px #7ddf64;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+p {
+  font-family: "Source Sans 3", sans-serif;
 }
 
 .opening--img {
   height: 100%;
   width: 100%;
+}
+
+.news {
+  margin: auto;
+  max-width: 1280px;
+  width: 80%;
+}
+.news__top, .news__bot {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+.news__top--text, .news__bot--text {
+  text-align: start;
+}
+.news__top--imgs, .news__top--video, .news__bot--imgs, .news__bot--video {
+  display: flex;
+  justify-content: center;
+  border: 2px solid #07080a;
+}
+.news__top--news, .news__bot--news {
+  text-shadow: 2px 2px 2px #7ddf64;
+}
+.news--h1 {
+  color: #07080a;
+}
+
+.groupe {
+  background-color: #07080a;
+}
+.groupe__top, .groupe__bot {
+  margin: auto;
+  max-width: 1280px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  background: white;
+}
+.groupe__un, .groupe__deux, .groupe__trois, .groupe__quatre {
+  display: flex;
+  justify-content: center;
+  max-width: 50%;
+}
+.groupe__un--img, .groupe__deux--img, .groupe__trois--img, .groupe__quatre--img {
+  border: 2px solid white;
+}
+.groupe--h1 {
+  color: #ffffff;
+}
+
+.reseaux {
+  margin: auto;
+  max-width: 1280px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+}
+.reseaux--h1 {
+  color: #07080a;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  color: #7ddf64;
+  background: #07080a;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.footer > * {
+  margin-bottom: 10px;
+}
+.footer--text {
+  margin-left: 20px;
+}
+.footer--signature {
+  margin-right: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,25 @@
+.groupe {
+  background-color: #07080a;
+}
+.groupe__top, .groupe__bot {
+  margin: auto;
+  max-width: 1280px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  background: white;
+}
+.groupe__un, .groupe__deux, .groupe__trois, .groupe__quatre {
+  display: flex;
+  justify-content: center;
+  max-width: 50%;
+}
+.groupe__un--img, .groupe__deux--img, .groupe__trois--img, .groupe__quatre--img {
+  border: 2px solid white;
+}
+.groupe--h1 {
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=groupe.css.map */

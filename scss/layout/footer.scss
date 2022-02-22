@@ -1,0 +1,18 @@
+@import "..//utils/mixin.scss";
+
+.footer {
+    @include flexbox;
+    color: #7ddf64;
+    background: rgba(7,8,10,255);
+    justify-content: space-between;
+    align-items: flex-end;
+    & > * {
+        margin-bottom: 10px;
+    }
+    &--text {
+        margin-left: 20px;
+    }
+    &--signature {
+        margin-right: 20px;
+    }
+}

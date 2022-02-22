@@ -5,10 +5,18 @@
     &__top, &__bot {
         @include flexbox;
         justify-content: space-between;
-        margin-top: 150px;
         &--text {
-            margin-right: 40px;
             text-align: start;
         }
+        &--imgs, &--video {
+            @include flexbox;
+            border: 2px solid $clr-primary;
+        }
+        &--news {
+            text-shadow: 2px 2px 2px $clr-tertiary;
+        }
+    }
+    &--h1 {
+        color: $clr-primary;
     }
 }
