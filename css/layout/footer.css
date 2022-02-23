@@ -2,9 +2,10 @@
   display: flex;
   justify-content: center;
   color: #7ddf64;
-  background: #07080a;
+  background-color: #07080a;
   justify-content: space-between;
   align-items: flex-end;
+  padding-top: 10px;
 }
 .footer > * {
   margin-bottom: 10px;

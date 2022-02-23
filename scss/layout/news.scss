@@ -2,15 +2,21 @@
 
 .news {
     @include wrapper;
+    margin-bottom: 100px;
     &__top, &__bot {
         @include flexbox;
         justify-content: space-between;
+        margin-bottom: 40px;
+        @include mobile-only {
+            flex-direction: column;
+        }       
         &--text {
             text-align: start;
         }
         &--imgs, &--video {
             @include flexbox;
             border: 2px solid $clr-primary;
+            background-color: $clr-primary;
         }
         &--news {
             text-shadow: 2px 2px 2px $clr-tertiary;

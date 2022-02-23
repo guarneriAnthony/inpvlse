@@ -1,5 +1,6 @@
 .groupe {
   background-color: #07080a;
+  padding-bottom: 100px;
 }
 .groupe__top, .groupe__bot {
   margin: auto;
@@ -10,10 +11,20 @@
   justify-content: space-between;
   background: white;
 }
+@media screen and (max-width: 1180px) {
+  .groupe__top, .groupe__bot {
+    flex-direction: column;
+  }
+}
 .groupe__un, .groupe__deux, .groupe__trois, .groupe__quatre {
   display: flex;
   justify-content: center;
   max-width: 50%;
+}
+@media screen and (max-width: 1180px) {
+  .groupe__un, .groupe__deux, .groupe__trois, .groupe__quatre {
+    max-width: 100%;
+  }
 }
 .groupe__un--img, .groupe__deux--img, .groupe__trois--img, .groupe__quatre--img {
   border: 2px solid white;

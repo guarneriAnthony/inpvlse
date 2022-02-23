@@ -10,10 +10,12 @@ h1 {
   text-shadow: 2px 2px 2px #db6c79;
   text-decoration: underline 2px #db6c79;
   font-family: "Source Sans Pro", sans-serif;
+  margin: 40px auto 60px;
 }
 
 h2 {
   font-size: 2.5em;
+  margin-bottom: 10px;
   color: #07080a;
   text-align: start;
   text-shadow: 2px 2px 2px #7ddf64;
@@ -22,6 +24,7 @@ h2 {
 
 p {
   font-family: "Source Sans 3", sans-serif;
+  font-weight: bold;
 }
 
 .opening--img {
@@ -33,11 +36,18 @@ p {
   margin: auto;
   max-width: 1280px;
   width: 80%;
+  margin-bottom: 100px;
 }
 .news__top, .news__bot {
   display: flex;
   justify-content: center;
   justify-content: space-between;
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 1180px) {
+  .news__top, .news__bot {
+    flex-direction: column;
+  }
 }
 .news__top--text, .news__bot--text {
   text-align: start;
@@ -46,6 +56,7 @@ p {
   display: flex;
   justify-content: center;
   border: 2px solid #07080a;
+  background-color: #07080a;
 }
 .news__top--news, .news__bot--news {
   text-shadow: 2px 2px 2px #7ddf64;
@@ -56,6 +67,7 @@ p {
 
 .groupe {
   background-color: #07080a;
+  padding-bottom: 100px;
 }
 .groupe__top, .groupe__bot {
   margin: auto;
@@ -66,10 +78,20 @@ p {
   justify-content: space-between;
   background: white;
 }
+@media screen and (max-width: 1180px) {
+  .groupe__top, .groupe__bot {
+    flex-direction: column;
+  }
+}
 .groupe__un, .groupe__deux, .groupe__trois, .groupe__quatre {
   display: flex;
   justify-content: center;
   max-width: 50%;
+}
+@media screen and (max-width: 1180px) {
+  .groupe__un, .groupe__deux, .groupe__trois, .groupe__quatre {
+    max-width: 100%;
+  }
 }
 .groupe__un--img, .groupe__deux--img, .groupe__trois--img, .groupe__quatre--img {
   border: 2px solid white;
@@ -85,18 +107,23 @@ p {
   display: flex;
   justify-content: center;
   justify-content: center;
+  margin-bottom: 100px;
 }
 .reseaux--h1 {
   color: #07080a;
+}
+.reseaux--img {
+  margin: auto 60px;
 }
 
 .footer {
   display: flex;
   justify-content: center;
   color: #7ddf64;
-  background: #07080a;
+  background-color: #07080a;
   justify-content: space-between;
   align-items: flex-end;
+  padding-top: 10px;
 }
 .footer > * {
   margin-bottom: 10px;

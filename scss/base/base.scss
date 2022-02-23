@@ -8,9 +8,11 @@ h1 {
     text-shadow:  2px 2px 2px $clr-complementary;
     text-decoration: underline 2px $clr-complementary;
     font-family: 'Source Sans Pro', sans-serif;
+    margin: 40px auto 60px;
 }
 h2 {
     font-size: 2.5em;
+    margin-bottom: 10px;
     color: $clr-primary;
     text-align: start;
     text-shadow: 2px 2px 2px $clr-tertiary;
@@ -18,4 +20,5 @@ h2 {
 }
 p {
     font-family: 'Source Sans 3', sans-serif;
+    font-weight: bold;
 }

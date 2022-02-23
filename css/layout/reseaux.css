@@ -5,9 +5,13 @@
   display: flex;
   justify-content: center;
   justify-content: center;
+  margin-bottom: 100px;
 }
 .reseaux--h1 {
   color: #07080a;
 }
+.reseaux--img {
+  margin: auto 60px;
+}
 
-/*# sourceMappingURL=follow.css.map */
+/*# sourceMappingURL=reseaux.css.map */

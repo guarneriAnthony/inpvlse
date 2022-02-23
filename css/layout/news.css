@@ -1,17 +1,34 @@
-/* Error: Undefined variable.
- *    ,
- * 13 |             border: 2px solid $clr-primary;
- *    |                               ^^^^^^^^^^^^
- *    '
- *   scss\layout\news.scss 13:31  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 13 \2502              border: 2px solid $clr-primary;\d\a    \2502                                ^^^^^^^^^^^^\a    \2575 \a   scss\\layout\\news.scss 13:31  root stylesheet";
+.news {
+  margin: auto;
+  max-width: 1280px;
+  width: 80%;
+  margin-bottom: 100px;
 }
+.news__top, .news__bot {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 1180px) {
+  .news__top, .news__bot {
+    flex-direction: column;
+  }
+}
+.news__top--text, .news__bot--text {
+  text-align: start;
+}
+.news__top--imgs, .news__top--video, .news__bot--imgs, .news__bot--video {
+  display: flex;
+  justify-content: center;
+  border: 2px solid #07080a;
+  background-color: #07080a;
+}
+.news__top--news, .news__bot--news {
+  text-shadow: 2px 2px 2px #7ddf64;
+}
+.news--h1 {
+  color: #07080a;
+}
+
+/*# sourceMappingURL=news.css.map */

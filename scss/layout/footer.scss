@@ -2,10 +2,11 @@
 
 .footer {
     @include flexbox;
-    color: #7ddf64;
-    background: rgba(7,8,10,255);
+    color: $clr-tertiary;
+    background-color: $clr-primary;
     justify-content: space-between;
     align-items: flex-end;
+    padding-top: 10px;
     & > * {
         margin-bottom: 10px;
     }
