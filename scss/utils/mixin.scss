@@ -14,3 +14,8 @@
         @content;
     }
 }
+@mixin mobile-logo {
+    @media screen and (max-width: map-get($breakpointsLogo, mobile)) {
+        @content;
+    }
+}

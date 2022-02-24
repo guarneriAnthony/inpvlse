@@ -11,5 +11,9 @@
     }
     &--img {
         margin: auto 60px;
+        transition: transform 400ms ease-in-out;
+        &:hover {
+            transform: scale(1.3);
+        }
     }
 }

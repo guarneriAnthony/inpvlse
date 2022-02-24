@@ -11,7 +11,7 @@
             flex-direction: column;
         }       
         &--text {
-            text-align: start;
+            text-align: start;            
         }
         &--imgs, &--video {
             @include flexbox;
