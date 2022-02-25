@@ -16,7 +16,7 @@
         bottom: 0px;
         left: 50%;
         transform: translate(-50%);
-        animation: logo-fade 4s 200ms both;
+        animation: logo-fade 3s 400ms both;
         @include mobile-logo  {
             max-width: 75%;
             max-height: 75%;
@@ -25,6 +25,18 @@
     @keyframes logo-fade {
         0% {
             opacity: 0;
+        }
+        20% {
+            opacity: 0.6;
+        }
+        40% {
+            opacity: 0;
+        }
+        60% {
+            opacity: 0.6;
+        }
+        80% {
+            opacity: 0.1;
         }
         100% {
             opacity: 1;

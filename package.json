@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch scss:css --style expanded"
+    "sass": "sass --watch scss:css --style expanded",
+    "prefix": "postcss ./css/style.css --use autoprefixer -d ./css/prefixed"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "sass": "^1.49.8"
+    "sass": "^1.49.8",
+    "browserslist": "last 4 versions"
   }
 }
