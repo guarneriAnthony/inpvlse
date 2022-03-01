@@ -1,0 +1,19 @@
+@import "../utils/variable.scss";
+@import "../utils/mixin.scss";
+
+.galerie {  
+    background-color: $clr-primary; 
+    &--h1 {
+        color: white;
+    }    
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+    }
+        &--img{
+            max-width: 100%;
+            border: 1px solid white;
+        }
+}

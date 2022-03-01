@@ -4,13 +4,13 @@
 .reseaux {
     @include wrapper;
     @include flexbox;
-    justify-content: center;
+    justify-content: space-around;
     margin-bottom: 100px;
     &--h1 {
         color: $clr-primary;
     }
     &--img {
-        margin: auto 60px;
+        margin: auto ;
         transition: transform 400ms ease-in-out;
         &:hover {
             transform: scale(1.3);
