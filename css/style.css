@@ -25,6 +25,7 @@ h2 {
 p {
   font-family: "Source Sans 3", sans-serif;
   font-weight: bold;
+  font-size: 20px;
 }
 
 .opening--titre {
@@ -86,7 +87,7 @@ p {
   display: flex;
   justify-content: center;
   justify-content: space-between;
-  margin-bottom: 40px;
+  margin-bottom: 80px;
 }
 @media screen and (max-width: 1180px) {
   .news__top, .news__bot {
@@ -95,10 +96,12 @@ p {
 }
 .news__top--text, .news__bot--text {
   text-align: start;
+  margin-bottom: 40px;
 }
 .news__top--imgs, .news__top--video, .news__bot--imgs, .news__bot--video {
   display: flex;
   justify-content: center;
+  justify-content: space-around;
   border: 2px solid #07080a;
   background-color: #07080a;
 }
