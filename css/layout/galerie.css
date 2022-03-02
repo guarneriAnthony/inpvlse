@@ -1,0 +1,28 @@
+.galerie {
+  background-color: #07080a;
+}
+.galerie--h1 {
+  color: white;
+}
+.galerie__wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  margin: 10px;
+}
+@media screen and (max-width: 1180px) {
+  .galerie__wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.galerie--img {
+  max-width: 100%;
+  border: 1px solid white;
+  transition: transform 250ms ease-in;
+}
+.galerie--img:hover {
+  transform: scale(1.4);
+}
+
+/*# sourceMappingURL=galerie.css.map */

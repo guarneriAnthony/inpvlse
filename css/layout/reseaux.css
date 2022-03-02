@@ -4,15 +4,21 @@
   width: 80%;
   display: flex;
   justify-content: center;
-  justify-content: center;
-  margin-bottom: 100px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
 }
 .reseaux--h1 {
   color: #07080a;
 }
 .reseaux--img {
-  margin: auto 60px;
+  margin: auto;
   transition: transform 400ms ease-in-out;
+}
+@media screen and (max-width: 1180px) {
+  .reseaux--img {
+    transform: scale(0.7);
+  }
 }
 .reseaux--img:hover {
   transform: scale(1.3);

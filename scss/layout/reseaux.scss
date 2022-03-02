@@ -4,16 +4,21 @@
 .reseaux {
     @include wrapper;
     @include flexbox;
-    justify-content: center;
-    margin-bottom: 100px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
     &--h1 {
         color: $clr-primary;
     }
     &--img {
-        margin: auto 60px;
+        margin: auto ;
         transition: transform 400ms ease-in-out;
+        @include mobile-only {
+            transform: scale(0.7);
+        }
         &:hover {
             transform: scale(1.3);
         }
+        
     }
 }

@@ -16,15 +16,13 @@
         }
         &--imgs, &--video {
             @include flexbox;
+            flex-wrap: wrap;
             justify-content: space-around;
             border: 2px solid $clr-primary;
-            background-color: $clr-primary;
+            width: 100%;
         }
         &--news {
             text-shadow: 2px 2px 2px $clr-tertiary;
         }
-    }
-    &--h1 {
-        color: $clr-primary;
-    }
+    }  
 }

@@ -22,15 +22,13 @@
 .news__top--imgs, .news__top--video, .news__bot--imgs, .news__bot--video {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   justify-content: space-around;
   border: 2px solid #07080a;
-  background-color: #07080a;
+  width: 100%;
 }
 .news__top--news, .news__bot--news {
   text-shadow: 2px 2px 2px #7ddf64;
-}
-.news--h1 {
-  color: #07080a;
 }
 
 /*# sourceMappingURL=news.css.map */
