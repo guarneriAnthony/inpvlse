@@ -4,16 +4,15 @@
     @include flexbox;
     color: $clr-tertiary;
     background-color: $clr-primary;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-end;
     padding-top: 10px;
     & > * {
         margin-bottom: 10px;
+        font-weight: normal;
+        transform: scale(0.8);
     }
     &--text {
         margin-left: 20px;
-    }
-    &--signature {
-        margin-right: 20px;
     }
 }

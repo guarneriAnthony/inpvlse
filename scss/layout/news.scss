@@ -16,6 +16,7 @@
         }
         &--imgs, &--video {
             @include flexbox;
+            flex-wrap: wrap;
             justify-content: space-around;
             border: 2px solid $clr-primary;
             width: 100%;
